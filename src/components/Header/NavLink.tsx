@@ -16,7 +16,7 @@ export default function NavLink({ title, path, includes = false }: Props) {
     if (includes) {
       return pathname.includes(path)
     }
-    return path == pathname
+    return path === pathname
   }
 
   const isActive = verifyIfIsActive()
