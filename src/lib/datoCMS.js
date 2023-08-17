@@ -1,7 +1,5 @@
 export default async function handler(req, res) {
-  const API_TOKEN = process.env.NEXT_PUBLIC_NEXT_DATOCMS_API_TOKEN
-  const API_URL = process.env.NEXT_PUBLIC_NEXT_DATOCMS_API_UR
-
+  
   const query = `
     {
       allProjetos {
@@ -14,10 +12,10 @@ export default async function handler(req, res) {
   `
 
   try {
-    const response = await fetch(API_URL, {
+    const response = await fetch(process.env.NEXT_PUBLIC_NEXT_DATOCMS_API_UR, {
       method: 'POST',
       headers: {
-        Authorization: `Bearer ${API_TOKEN}`,
+        Authorization: `Bearer ${process.env.NEXT_PUBLIC_NEXT_DATOCMS_API_TOKEN}`,
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({ query }),
