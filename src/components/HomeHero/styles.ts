@@ -13,6 +13,7 @@ export const Container = styled.section`
 
   > .perfil {
     width: 25rem;
+    height: auto;
     flex: 1;
   }
 

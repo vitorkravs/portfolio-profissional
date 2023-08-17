@@ -14,7 +14,7 @@ export const Container = styled.header`
   align-items: center;
   justify-content: center;
   height: 4rem;
-  border-bottom: 1px solid ${({ theme }) => theme.backgroundLight};
+  border-bottom: 1px solid ${theme.backgroundLight};
 
   ul {
     display: flex;

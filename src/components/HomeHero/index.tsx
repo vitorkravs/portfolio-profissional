@@ -5,7 +5,13 @@ import perfil from '../../assets/IMG_0614.jpg'
 export function HomeHero() {
   return (
     <Container>
-      <Image src={perfil} width={400} className="perfil" alt="Foto de perfil" />
+      <Image
+        src={perfil}
+        width={400}
+        className="perfil"
+        alt="Foto de perfil"
+        priority
+      />
       <div>
         <TextContainer>
           <h1>Hello</h1>
