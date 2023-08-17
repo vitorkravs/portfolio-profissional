@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import theme from '@/styles/theme'
 
 export const Container = styled.section`
-  margin: 2.7rem auto 0;
+  margin: 7rem auto 0;
   width: 90%;
 `
 
