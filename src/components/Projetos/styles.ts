@@ -9,7 +9,7 @@ interface ProjetosProps {
 
 export const Container = styled.div`
   width: 90%;
-  margin: 2.5rem auto;
+  margin: 4rem auto;
   display: flex;
   flex-direction: column;
   align-items: center;
