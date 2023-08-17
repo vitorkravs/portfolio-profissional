@@ -20,7 +20,6 @@ export function Projetos() {
         console.error('Erro ao obter dados:', error)
       })
   }, [])
-  console.log(projetos)
 
   return (
     <Container>
