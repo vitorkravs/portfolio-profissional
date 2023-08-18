@@ -17,7 +17,7 @@ export function ProjetoList({
   slug,
 }: ProjetosListProps) {
   return (
-    <Container imgUrl={imgUrl}>
+    <Container $imgurl={imgUrl}>
       <Link href={`${slug}`}>
         <div className="overlay" />
         <section>

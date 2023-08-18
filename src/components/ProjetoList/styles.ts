@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import theme from '@/styles/theme'
 
 interface ContainerProps {
-  imgUrl: string
+  $imgurl: string
 }
 
 export const Container = styled.div<ContainerProps>`
@@ -12,7 +12,7 @@ export const Container = styled.div<ContainerProps>`
     width: 100%;
     height: 10rem;
     padding: 1.5rem;
-    background: url(${(props) => props.imgUrl}) no-repeat center;
+    background: url(${(props) => props.$imgurl}) no-repeat center;
     background-size: cover;
     display: flex;
     justify-content: flex-start;
