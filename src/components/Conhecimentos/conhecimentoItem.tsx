@@ -2,6 +2,8 @@
 import { ReactNode } from 'react'
 import { ConhecimentoContainer } from './styles'
 
+import { motion } from 'framer-motion'
+
 interface ConhecimentoProps {
   title: string
   icon: ReactNode

@@ -1,6 +1,9 @@
+'use client'
 import { Container, TextContainer, InfosContainer, CodeItem } from './styles'
 import Image from 'next/image'
 import perfil from '../../assets/IMG_0614.jpg'
+
+import { motion } from 'framer-motion'
 
 export function HomeHero() {
   return (
@@ -12,7 +15,14 @@ export function HomeHero() {
         alt="Foto de perfil"
         priority
       />
-      <div>
+      <motion.div
+        initial={{ opacity: 0, x: -400 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        exit={{ opacity: 1, x: -100 }}
+        transition={{ duration: 1 }}
+        className="component"
+        id="next13"
+      >
         <TextContainer>
           <h1>Hello</h1>
           <h2>devs and recruiters !</h2>
@@ -70,7 +80,7 @@ export function HomeHero() {
             {'\u007D'}
           </CodeItem>
         </InfosContainer>
-      </div>
+      </motion.div>
     </Container>
   )
 }

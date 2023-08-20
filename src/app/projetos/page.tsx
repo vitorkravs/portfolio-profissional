@@ -1,10 +1,13 @@
 'use client'
 import React, { useEffect, useState } from 'react'
+
 import fetchDataFromApi from '../../lib/datoCMS'
+
+import { ProjetoContainer } from '@/styles/ProjetosStyles'
 import { Header } from '@/components/Header'
 import { ProjetoList } from '../../components/ProjetoList'
-import { ProjetoContainer } from '@/styles/ProjetosStyles'
-import { GlobalStyle } from '@/styles/global'
+
+import Head from 'next/head'
 
 export default function Projetos() {
   const [projetos, setProjetos] = useState([])
@@ -21,7 +24,9 @@ export default function Projetos() {
 
   return (
     <ProjetoContainer>
-      <GlobalStyle />
+      <Head>
+        <title>Home - Portfólio</title>
+      </Head>
       <Header />
       <main className="container">
         {projetos.map((projeto: any) => (

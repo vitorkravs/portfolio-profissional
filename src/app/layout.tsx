@@ -1,3 +1,4 @@
+import { GlobalStyle } from '@/styles/global'
 export default function RootLayout({
   children,
 }: {
@@ -5,6 +6,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
+      <GlobalStyle />
       <body>{children}</body>
     </html>
   )

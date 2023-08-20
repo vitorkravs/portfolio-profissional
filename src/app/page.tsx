@@ -1,4 +1,3 @@
-import { GlobalStyle } from '@/styles/global'
 import { HomeContainer } from '../styles/HomeStyles'
 import { Header } from '@/components/Header'
 import { HomeHero } from '@/components/HomeHero'
@@ -7,10 +6,15 @@ import { Conhecimentos } from '@/components/Conhecimentos'
 import { FormContato } from '@/components/FormContato'
 import { Footer } from '@/components/Footer'
 
+import Head from 'next/head'
+
 export default function Home() {
   return (
     <HomeContainer>
-      <GlobalStyle />
+      <Head>
+        <title>Home - Portfólio</title>
+      </Head>
+
       <Header />
       <HomeHero />
       <Projetos />
