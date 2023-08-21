@@ -6,14 +6,15 @@ import { Conhecimentos } from '@/components/Conhecimentos'
 import { FormContato } from '@/components/FormContato'
 import { Footer } from '@/components/Footer'
 
-import Head from 'next/head'
+export const metadata ={
+  title: 'Home - Portfólio'
+}
+
+
 
 export default function Home() {
   return (
     <HomeContainer>
-      <Head>
-        <title>Home - Portfólio</title>
-      </Head>
 
       <Header />
       <HomeHero />

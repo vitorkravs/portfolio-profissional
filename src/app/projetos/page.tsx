@@ -7,7 +7,9 @@ import { ProjetoContainer } from '@/styles/ProjetosStyles'
 import { Header } from '@/components/Header'
 import { ProjetoList } from '../../components/ProjetoList'
 
-import Head from 'next/head'
+export const metadata ={
+  title: 'Projetos'
+}
 
 export default function Projetos() {
   const [projetos, setProjetos] = useState([])
@@ -24,9 +26,6 @@ export default function Projetos() {
 
   return (
     <ProjetoContainer>
-      <Head>
-        <title>Home - Portfólio</title>
-      </Head>
       <Header />
       <main className="container">
         {projetos.map((projeto: any) => (

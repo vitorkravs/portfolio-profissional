@@ -6,8 +6,6 @@ import { Container } from './styles'
 import SectionTitle from '../SectionTitle'
 import ProjetoItem from './ProjetoItem'
 
-import { motion } from 'framer-motion'
-
 import Link from 'next/dist/client/link'
 
 export function Projetos() {
