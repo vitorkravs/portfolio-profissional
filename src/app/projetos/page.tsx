@@ -7,10 +7,6 @@ import { ProjetoContainer } from '@/styles/ProjetosStyles'
 import { Header } from '@/components/Header'
 import { ProjetoList } from '../../components/ProjetoList'
 
-export const metadata = {
-  title: 'Projetos',
-}
-
 export default function Projetos() {
   const [projetos, setProjetos] = useState([])
 
