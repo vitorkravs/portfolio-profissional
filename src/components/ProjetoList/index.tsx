@@ -1,4 +1,3 @@
-'use client'
 import { Container } from './styles'
 
 import Link from 'next/link'

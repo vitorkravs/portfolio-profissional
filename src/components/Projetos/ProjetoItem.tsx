@@ -1,4 +1,3 @@
-'use client'
 import Link from 'next/dist/client/link'
 import { AiOutlineRightCircle } from 'react-icons/ai'
 import { ProjetoContainer } from './styles'

@@ -1,4 +1,4 @@
-'use client server'
+'use client'
 import NavLink from './NavLink'
 import { Container } from './styles'
 
