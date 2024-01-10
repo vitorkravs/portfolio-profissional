@@ -1,22 +1,53 @@
-# Clone este repositório para sua máquina local:
+## Portfolio Profissional
 
-`git clone https://github.com/vitorkravs/portfolio-profissional.git`
+  Bem-vindo ao meu Portfólio Profissional, uma apresentação detalhada dos meus projetos e habilidades, desenvolvido por Vitor Kravszenko.
 
-## Instale as dependências necessárias utilizando o gerenciador de pacotes Yarn:
+  Pode ser acessado aqui: [Portfólio Profissional](https://portfolio-profissional-iota.vercel.app/)
 
-### `yarn install`
+## Descrição
 
-## Instale o plugin ESLint da Rockeseat para manter um código consistente e padronizado:
+  Meu Portfólio Profissional é uma plataforma interativa que destaca meus projetos, experiências e habilidades. Este espaço foi             desenvolvido utilizando as mais recentes tecnologias web, proporcionando uma experiência de usuário moderna e envolvente.
 
-### `yarn add eslint -D`
-### `yarn eslint --init`
+## Recursos
 
-## Instale o Styled Components e o Polished para estilização avançada:
+  Projetos Destacados: Explore uma variedade de projetos, destacando minha diversidade de habilidades.
+  Experiência Profissional: Conheça meu histórico profissional e acadêmico.
+  Habilidades Técnicas: Descubra as tecnologias e ferramentas que domino.
+  
+## Como Executar
 
-### `yarn add styled-components polished`
+  Acesse o Portfólio Profissional publicado na Vercel: [Portfólio Profissional](https://portfolio-profissional-iota.vercel.app/) ou
 
-## de um `yarn start` para iniciar o projeto
+## clone o repositório
 
-## Consumo de Dados
+  git clone https://github.com/vitorkravs/portfolio-profissional.git
 
-O projeto faz uso da API do DatoCMS para obter dados. O arquivo lib/datoCMS.js contém a configuração e a lógica para consumir os dados necessários para preencher as diferentes seções do portfólio.
+## instale as dependências
+
+  cd portfolio-profissional
+  npm install
+
+## Inicie o aplicativo
+
+Acesse o aplicativo em http://localhost:3000.
+
+
+## Tecnologias Utilizadas
+
+  Next.js, React e React DOM, Styled-components, Polished, React Icons, AOS, Emailjs-com
+
+## Dependências Adicionais
+  TypeScript, ESLint-config-next
+
+## Contribuição
+
+  Contribuições são bem-vindas! Se você encontrar problemas, bugs ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma       "issue" ou enviar um "pull request".
+
+## Conecte-se comigo
+
+Fique à vontade para me encontrar em outras plataformas:
+
+- [GitHub](https://github.com/vitorkravs)
+- [LinkedIn](https://www.linkedin.com/in/vitor-kravszenko-80748a234/)
+
+Desenvolvido por Vitor Cesar Kravszenko.
